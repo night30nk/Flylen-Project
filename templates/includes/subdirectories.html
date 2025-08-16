@@ -5,7 +5,7 @@
             class="ms-{{depth}} collapse show"
         >
             <i class="fas fa-folder"></i>
-            <a 
+            <!-- <a 
                 data-bs-toggle="collapse" 
                 href="#collapse{{subdirectory.id}}" 
                 role="button" 
@@ -14,7 +14,7 @@
                 onclick="window.location.href = '{% url 'file_manager' subdirectory.path|encoded_path %}';"
             >
                 {{ subdirectory.name }}
-            </a>
+            </a> -->
         </li>
         {% include 'includes/subdirectories.html' with directory=subdirectory depth=depth|add:"2" %}
     {% else %}
