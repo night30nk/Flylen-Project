@@ -21,13 +21,13 @@
         <li class="nav-item">
           <a class="nav-link {% if 'dynamic_dt' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{{ url_for('table_blueprint.dynamic_dt') }}">
             <i class="material-symbols-rounded opacity-5">table_view</i>
-            <span class="nav-link-text ms-1">Dynamic Tables</span>
+            <span class="nav-link-text ms-1">Usage Tracker</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link {% if 'charts' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{{ url_for('charts_blueprint.charts') }}">
             <i class="material-symbols-rounded opacity-5">bar_chart</i>
-            <span class="nav-link-text ms-1">Charts</span>
+            <span class="nav-link-text ms-1">Energy & Network Charts</span>
           </a>
         </li>
 
@@ -38,13 +38,13 @@
         <li class="nav-item">
           <a class="nav-link {% if 'tables' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{{ url_for('home_blueprint.tables') }}">
             <i class="material-symbols-rounded opacity-5">table_view</i>
-            <span class="nav-link-text ms-1">Tables</span>
+            <span class="nav-link-text ms-1">Project Tracker</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link {% if 'billing' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{{ url_for('home_blueprint.billing') }}">
             <i class="material-symbols-rounded opacity-5">receipt_long</i>
-            <span class="nav-link-text ms-1">Billing</span>
+            <span class="nav-link-text ms-1">Analytics</span>
           </a>
         </li>
         <!-- <li class="nav-item">
@@ -118,7 +118,7 @@
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
       <div class="mx-3">
         <a class="btn btn-outline-dark mt-4 w-100" href="https://app-generator.dev/docs/products/flask/material-dashboard/index.html" type="button">Documentation</a>
-        <a class="btn bg-gradient-dark w-100" href="https://app-generator.dev/product/material-dashboard/flask/" type="button">Download</a>
+        <a class="btn bg-gradient-dark w-100" type="button">Download</a>
       </div>
     </div>
 </aside>
