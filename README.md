@@ -32,9 +32,12 @@ From **employee performance** to **project progress** and **team productivity**,
 
 - **Sidebar Navigation**  
   - Dashboard  
-  - Projects  
-  - Metrics  
-  - Reports  
+  - Usage Tracker  
+  - Energy & Network Charts
+  - Project Tracker
+  - Analytics
+  - Notifications
+  - Map  
   - Settings  
 
 - **Top Stats Cards**  
@@ -50,17 +53,29 @@ From **employee performance** to **project progress** and **team productivity**,
 
 - **Tables & Feeds**  
   - Projects Table → Track projects with members, deadlines, progress %  
-  - Activity Feed → Latest company/team updates  
+  - Recent History → Latest company/team updates  
 
 ---
 
 ## 🛠 Tech Stack  
 
-- **Flask** (Python) – Backend framework  
-- **Bootstrap 5 + Material Dashboard** – Frontend design  
-- **SQLite / PostgreSQL / MySQL** – Database options  
-- **Jinja2** – Template rendering  
-- **Dynamic DataTables** – Manage data easily without coding  
+Flylen Pulse uses both **Frontend** and **Backend** technologies.  
+Right now, the **Frontend is the main focus**, while the Backend is still under development.  
+
+- 🎨 **Frontend**  
+  - **Bootstrap 5 + Material Dashboard** – Modern UI & responsive design  
+  - **HTML5, CSS3, JavaScript** – Core structure & styling  
+  - **Jinja2 Templates** – Dynamic rendering for Flask integration  
+
+- ⚙️ **Backend** (Work in Progress 🚧)  
+  - **Flask (Python)** – Planned backend framework  
+  - **SQLite (default), PostgreSQL/MySQL (planned)** – Database support  
+  - **REST APIs** – To connect projects, employee data, and reports (coming soon)  
+
+- 📊 **Other Tools**  
+  - **Dynamic DataTables** – Manage and visualize data easily  
+  - **Charts & Graphs** – For KPIs, productivity, and progress tracking  
+
 
 ---
 
@@ -68,5 +83,13 @@ From **employee performance** to **project progress** and **team productivity**,
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-repo/flylen-pulse.git
-   cd flylen-pulse
+   git clone https://github.com/night30nk/Flylen-Project.git
+   cd Flylen-Project
+
+2. Create a virtual environment
+  ``` bash
+  pip install -r requirements.txt
+
+3. Run the app
+  ``` bash
+  python run.py
