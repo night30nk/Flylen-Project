@@ -87,9 +87,9 @@ Right now, the **Frontend is the main focus**, while the Backend is still under 
    cd Flylen-Project
 
 2. Create a virtual environment
-  ``` bash
-  pip install -r requirements.txt
+   ``` bash
+   pip install -r requirements.txt
 
 3. Run the app
-  ``` bash
-  python run.py
+   ``` bash
+   python run.py
